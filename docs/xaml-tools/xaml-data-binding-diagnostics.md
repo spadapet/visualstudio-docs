@@ -25,7 +25,7 @@ XAML data binding is explained in these articles:
 
 - For WPF: [Data binding overview - WPF .NET](/dotnet/desktop/wpf/data/)
 - For UWP: [Data binding overview - UWP applications](/windows/uwp/data-binding/data-binding-quickstart/)
-- For Xamarin.Forms: [Xamarin.Forms Data Binding - Xamarin](/xamarin/xamarin-forms/app-fundamentals/data-binding/)
+- For MAUI: [Data binding - .NET MAUI](/dotnet/maui/fundamentals/data-binding/)
 
 Binding failures have always been written to the debug output window in Visual Studio. But it’s easy to miss the binding failures within debug output since it contains other debugging information that scrolls binding failures out of view. Here's an example of a WPF binding failure within the debug output window:
 
@@ -102,9 +102,7 @@ Most XAML platforms are supported if binding failures are written to debug outpu
 |**WPF .NET 5.0 RC2+**|Yes|Yes|
 |**UWP**|Yes|No|
 |**WinUI3 desktop**|Yes|No|
-|**MAUI (Multi-platform App UI)**|Yes|No|
-|**Xamarin 4.5.0.266-pre3+**|Yes|Yes|
-|**Xamarin before 4.5.0.266-pre3**|No|No|
+|**MAUI (Multi-platform App UI)**|Yes|Yes|
 
 The XAML Hot Reload option must be enabled in Visual Studio for navigating to source to work. This option is in the **Tools** > **Options** > **Debugging dialog**:
 
